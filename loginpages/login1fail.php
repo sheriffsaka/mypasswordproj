@@ -1,0 +1,31 @@
+<?php
+    session_start();
+    ob_start();
+?>
+<html>
+    <head>
+        <title>Login Failed!</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <div>
+                <ul>
+                    <li><a href="../index.html">Home</a> </li>
+                    <li><a class="active" href="#register.php">Register</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+        </div>
+        <div>
+            <p>
+                <h1>Login Failed!</h1>
+            </p>
+
+            
+            <p>
+                <h2>You have entered wrong details. Try again.</h2>
+                <h3><a href="../pages/register1.php">Click here to Register if not registered.</a></h3>
+                <h4>Already Registered, <a href="../loginpages/login.html">Click Here to re-login.</a> </h4>
+            </p>
+        </div>
+    </body>
+</html>

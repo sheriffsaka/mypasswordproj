@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Graphical Password Authentication System using Intuitive Approach</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <div>
+                <ul>
+                    <li><a href="../index.html">Home</a> </li>
+                    <li><a href="../pages/register1.php">Register</a></li>
+                    <li><a  class="active" href="#login">Login</a></li>
+                    
+                </ul>
+        </div>
+        <div>
+            <p>
+                <h1>Login</h1>
+            </p>
+            <p>
+                <h2>Enter your Username and Password to login</h2>
+               <h4>NOTE: Becareful while entering your password and username. </h4>
+            </p>
+        </div>
+        <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
+            <form action="../database/login.php" method=POST>
+                <input type="text" alt="Username Entry space" placeholder="Enter your Username" id="username" required="">
+                <input type="password" alt="Password Entry space" placeholder="Enter your text Password" id="password1" equired="">
+                <input type="submit" value="Register" title="Register">
+                
+            </form>
+        </div>
+
+        <script src="../js/registerValidate.js" type="text/javascript"></script>
+    </body>
+</html>
