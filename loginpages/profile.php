@@ -27,7 +27,7 @@ ob_start();
     <div>
         <ul>
             <li><a class="active" href="#home">Home</a> </li>
-            <li><a href="./pages/register.html">Register</a></li>
+            <li><a href="../pages/register.html">Register</a></li>
             <li><a href="../loginpages/login.html">Login</a></li>
         </ul>
     </div>
@@ -39,11 +39,10 @@ ob_start();
             <p>
             <div class="contain"><img src="../static/images/manavatar1.png" height="100" width="100"></div>
             <h3>User Account Information</h3>
-            <h3>Username: </h3><?php echo $_SESSION['username']; ?><br>
-
-
+            <h3>Username: </h3><?php echo $_SESSION['username']; ?>
             <h4>
                 <hr>
+                <a href="../index.html">Go to Homepage</a>
             </h4>
             </p>
         </div>
